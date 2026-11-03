@@ -1,36 +1,29 @@
-/* ==========================================
-   GLOBAL STYLES & RESETS
-   ========================================== */
+
 * {
   margin: 0px;
   padding: 0px;
 }
 
 html {
-  scroll-behavior: smooth; /* Glides the viewport smoothly upwards when return button is clicked */
+  scroll-behavior: smooth; /
 }
 
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; /* Applied professional Inter font */
-  background-color: #fdf4ff;             /* Vibrant soft warm light purple background canvas */
-  color: #1a1a1a;                        /* High-contrast dark charcoal text */
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: #fdf4ff;
+  color: #1a1a1a;
   line-height: 1.6;
 }
 
-/* ==========================================
-   MAIN PAGE LAYOUT (CENTERED)
-   ========================================== */
 .main-container {
   width: 90%;
   max-width: 800px;
-  margin: 30px auto; /* Centers the whole column layout on the screen */
+  margin: 30px auto;
 }
 
-/* ==========================================
-   NAVIGATION BAR
-   ========================================== */
+
 .nav-bar {
-  background-color: #2e1065; /* Deep purple background */
+  background-color: #2e1065; 
   text-align: center;
   padding: 15px;
   border-bottom: 3px solid #000000;
@@ -38,7 +31,7 @@ body {
 
 .nav-bar a {
   color: #ffffff;
-  text-decoration: underline; /* Underlined so colorblind users notice links */
+  text-decoration: underline;
   font-weight: 600;
   margin: 5px 10px;
   padding: 6px 12px;
@@ -46,34 +39,32 @@ body {
   font-size: 14px;
   border: 2px solid transparent;
   border-radius: 4px;
-  transition: 0.2s; /* Smooth motion transition */
+  transition: 0.2s;
 }
 
-/* Hover rule for individual top nav navigation links */
+
 .nav-bar a:hover {
   color: #000000;
-  background-color: #06b6d4; /* Vibrant cyan hover block fill */
-  border-color: #000000;      /* Sharp contrast container border */
+  background-color: #06b6d4; 
+  border-color: #000000;
 }
 
-/* ==========================================
-   WELCOME BANNER
-   ========================================== */
+
 .welcome-banner {
-  background-color: #4c1d95; /* Vibrant primary purple color */
+  background-color: #4c1d95;
   color: #ffffff;
   padding: 40px;
   text-align: center;
   border-radius: 8px;
   margin-bottom: 25px;
   border: 3px solid #000000;
-  transition: 0.2s; /* Smooth motion transition */
+  transition: 0.2s;
 }
 
-/* Hover rule for the welcome banner container */
+
 .welcome-banner:hover {
-  background-color: #3b1475;        /* Swaps to a deeper, richer purple hue */
-  box-shadow: 8px 8px 0px #06b6d4;  /* Vibrant neon cyan flat pop-out shadow */
+  background-color: #3b1475;
+  box-shadow: 8px 8px 0px #06b6d4;
 }
 
 .welcome-banner h1 {
@@ -89,51 +80,48 @@ body {
   font-weight: 400;
 }
 
-/* ==========================================
-   CONTENT CARDS / CONTENT SECTIONS
-   ========================================== */
 .section-box {
   background-color: #ffffff;
   padding: 30px;
   margin-bottom: 25px;
   border-radius: 8px;
-  text-align: center;       /* Centers all paragraphs and content inside sections */
-  border: 3px solid #000000; /* Thick solid black border for low-vision visibility */
-  transition: 0.2s;          /* Smooth motion transition */
+  text-align: center
+  border: 3px solid #000000;
+  transition: 0.2s;
 }
 
-/* Hover rule for all standard white section boxes */
+
 .section-box:hover {
-  background-color: #faf5ff;        /* Light purple background tint shift */
-  box-shadow: 8px 8px 0px #000000;  /* Classic bold, flat black pop-out shadow */
+  background-color: #faf5ff;
+  box-shadow: 8px 8px 0px #000000;
 }
 
-/* Distinct high-contrast callout card for specific sections */
+
 .dark-box {
   background-color: #2e1065;
   color: #ffffff;
-  transition: 0.2s; /* Smooth motion transition */
+  transition: 0.2s;
 }
 
-/* Hover rule for the dark accent callout panel box */
+
 .dark-box:hover {
-  background-color: #1e0a45;        /* Shifts to an extra-deep midnight purple canvas background */
-  box-shadow: 8px 8px 0px #06b6d4;  /* Vibrant neon cyan flat pop-out shadow */
+  background-color: #1e0a45;
+  box-shadow: 8px 8px 0px #06b6d4; 
 }
 
 .dark-box h2 {
-  color: #06b6d4; /* Cyan title text for dark box contrast */
+  color: #06b6d4;
   border-bottom: 3px solid #06b6d4;
 }
 
 h2 {
-  color: #4c1d95; /* Bold purple titles */
+  color: #4c1d95;
   margin-bottom: 25px;
   font-size: 24px;
   font-weight: 800;
-  border-bottom: 3px solid #4c1d95; /* Border underlines headers clearly */
+  border-bottom: 3px solid #4c1d95;
   padding-bottom: 5px;
-  display: inline-block;            /* Keeps the underline tucked cleanly under text */
+  display: inline-block; 
   letter-spacing: -0.3px;
 }
 
@@ -142,56 +130,52 @@ p {
   font-size: 16px;
 }
 
-/* ==========================================
-   SIMPLE LIST SETTINGS (CENTERED & STACKED)
-   ========================================== */
+
 ul {
-  list-style-type: none; /* Removed default bullets to let centered headers look clean */
-  text-align: center;    /* Centers text lines perfectly */
+  list-style-type: none; 
+  text-align: center; 
   margin-bottom: 15px;
   padding: 0px;
 }
 
 li {
-  margin-bottom: 25px;   /* Spacing between different points */
+  margin-bottom: 25px;
   font-size: 16px;
   padding: 10px;
   border-radius: 6px;
   border: 2px solid transparent;
-  transition: 0.2s;      /* Smooth motion transition */
+  transition: 0.2s;
 }
 
-/* Hover rule for individual stacked list row points */
+
 li:hover {
-  background-color: #f3e8ff;  /* Soft light purple highlight background boundary */
-  border-color: #4c1d95;      /* Crisp purple frame outline guard indicators */
+  background-color: #f3e8ff;
+  border-color: #4c1d95;
 }
 
-/* Targets the bold points in paragraphs and lists */
+
 strong {
-  display: block;        /* FORCES text after this tag to jump to a different line underneath */
-  color: #4c1d95;        /* Makes the header points match our bold purple brand */
-  font-size: 17px;       /* Slightly larger font size for the header block */
+  display: block;
+  color: #4c1d95;
+  font-size: 17px;
   font-weight: 700;
-  margin-bottom: 6px;    /* Spacing between the bold header and info text underneath */
-  text-transform: uppercase; /* Gives a clean, structured look to the header row */
+  margin-bottom: 6px;
+  text-transform: uppercase;
   letter-spacing: 0.5px;
-  transition: 0.2s;      /* Smooth motion transition */
+  transition: 0.2s;
 }
 
-/* Blinks individual bold labels to dark teal when hovering their row */
+
 li:hover strong {
   color: #007a91;
 }
 
-/* Changes bold color inside the dark box theme so it stays readable */
+
 .dark-box strong {
   color: #06b6d4;
 }
 
-/* ==========================================
-   HYPERLINKS
-   ========================================== */
+
 a {
   color: #4c1d95;
   font-weight: 600;
@@ -202,33 +186,28 @@ a:hover {
   color: #06b6d4;
 }
 
-/* ==========================================
-   FIXED RETURN TO TOP BUTTON
-   ========================================== */
 .back-to-top {
-  position: fixed;            /* Locks the button to the screen window viewport */
-  bottom: 20px;               /* Spaces it perfectly up from the bottom edge */
-  left: 20px;                 /* Spaces it neatly out from the left edge */
-  background-color: #06b6d4;  /* Vibrant cyan background color */
-  color: #000000;             /* High-contrast solid black text */
-  padding: 12px 18px;         /* Creates a thick clickable button container bubble */
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: #06b6d4;
+  color: #000000;
+  padding: 12px 18px;
   font-weight: 700;
   font-size: 14px;
-  text-decoration: none;      /* Removes default underline for a clean button shape */
+  text-decoration: none;
   border-radius: 8px;
-  border: 3px solid #000000;  /* Thick black retro outline guard matching our cards */
-  box-shadow: 4px 4px 0px #000000; /* Flat comic book pop-out drop shadow structure */
-  z-index: 9999;              /* Higher level layer layout stack so it floats above cards */
-  transition: 0.2s;           /* Smooth cursor layout transition motion */
-}
+  border: 3px solid #000000;
+  box-shadow: 4px 4px 0px #000000;
+  z-index: 9999;
+  transition: 0.2s; 
 
-/* Hover state interaction rules for the float shortcut button */
+
 .back-to-top:hover {
-  background-color: #ffffff;        /* Swaps button fill color directly to white */
-  color: #4c1d95;                   /* Changes label font color to vibrant brand purple */
-  box-shadow: 0px 0px 0px #000000;  /* Flattens the drop shadow block on hover click */
-  transform: translateY(4px) translateX(4px); /* Shifts the button downward into its shadow layer */
-}
+  background-color: #ffffff;
+  color: #4c1d95;
+  box-shadow: 0px 0px 0px #000000;
+  transform: translateY(4px) translateX(4px);
 
 
 
